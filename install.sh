@@ -3,9 +3,9 @@
 
 rm -rf /tmp/nanorc
 rm -f ~/.nanorc
-mv -f /tmp/nanorc/*.nanorc /usr/share/nano/
 
 git clone https://github.com/scopatz/nanorc.git /tmp/nanorc
+mv -f /tmp/nanorc/*.nanorc /usr/share/nano/
 
 for f in /usr/share/nano/*.nanorc
 do
